@@ -13923,6 +13923,10 @@ Human incorrectly classified as dogs: 0.0%
 </code></pre>
 <p><strong>Question 4:</strong> Outline the steps you took to get to your final CNN architecture and your reasoning at each step.  If you chose to use the hinted architecture above, describe why you think that CNN architecture should work well for the image classification task.</p>
 <p><strong>Answer:</strong></p>
+<p>Increasing the number of filters might increase efficiently of the model. At the beginning, it might be able to pick up the higher level features, and after, it would get better at connect these features together for a complete representation of the image.</p>
+<p>MaxPooling2D is used after every Conv2D to reduce the number of parameters. 
+Third MaxPooling2D layer is flattened to one dimensional (after Dropout), and passed through two fully connected (Dense) layers.</p>
+<p>ReLU activations are using for all layers except the output Dense layer, which using a softmax activation.</p>
 
 </div>
 </div>
@@ -14463,6 +14467,7 @@ Shape of test_Resnet50: (836, 1, 1, 2048)
 </code></pre>
 <p><strong>Question 5:</strong> Outline the steps you took to get to your final CNN architecture and your reasoning at each step.  Describe why you think the architecture is suitable for the current problem.</p>
 <p><strong>Answer:</strong></p>
+<p>All precomputed networks available in Keras are well trained and produce impressive results. But I chose Resnet50 because it has a good 'ratio' of weight and performance as well as producing a competitive final result.</p>
 
 </div>
 </div>
