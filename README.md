@@ -54,6 +54,6 @@ Along with exploring state-of-the-art CNN models for classification, were made a
 	```
 
 
-## Amazon Web Services
+## Amazon Web Services (AWS)
 
 Instead of training your model on a local CPU (or GPU), you could use Amazon Web Services to launch an EC2 GPU instance.
