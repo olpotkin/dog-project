@@ -13,8 +13,6 @@ Along with exploring state-of-the-art CNN models for classification, were made a
 
 ## Project Instructions
 
-### Instructions
-
 1. Clone the repository and navigate to the downloaded folder.
 	
 	```	
